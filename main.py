@@ -1,12 +1,13 @@
-def main():
-    print("hello world")
-x = [4 5 6; 2 5 3; 1 2 3]
-print x
-main()
+import sys
 
+def print_sys_props():
+    print(sys.executable)
+    print(sys.path)
 
+def main ():
+    print (print_sys_props())
 
     
-
+main()
 
 
